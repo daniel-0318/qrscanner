@@ -42,7 +42,8 @@ export class Tab1Page {
       }
      }).catch(err => {
          console.log('Error', err);
-         this.dataLocal.guardarRegistro("no reconocido", "https://www.google.com")
+         this.dataLocal.guardarRegistro("http", "https://www.google.com")
+         this.dataLocal.guardarRegistro("geo:", "geo:40.73151796986687,-74.06087294062502")
      });
 
   }

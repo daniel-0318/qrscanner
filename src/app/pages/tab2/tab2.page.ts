@@ -14,7 +14,7 @@ export class Tab2Page {
   enviarCorreo(){}
 
   abrirRegistro(registro){
-
+    this.dataLocal.abrirRegistro(registro);
   }
 
 }
